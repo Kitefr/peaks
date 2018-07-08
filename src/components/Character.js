@@ -10,20 +10,10 @@ import {
 } from "../styled/Single";
 import { StyledH2 } from "../styled/Headers";
 
-//mock
-import character from "../character.json";
-
 class Character extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: character
-    };
-  }
-
   render() {
     const yearPattern = new RegExp("(([\\d]{4}))", "i");
-    let sortedComics = this.state.data.comics.items
+    let sortedComics = this.props.character.comics.items
       .filter(item => yearPattern.test(item.name))
       .map(item => {
         const obj = {};
@@ -35,21 +25,23 @@ class Character extends Component {
 
     return (
       <StyledPageContainer>
-        <PageHeader title={this.state.data.name} />
+        <PageHeader title={this.props.character.name} />
         <StyleSingleImage
-          src={`${this.state.data.thumbnail.path}.${
-            this.state.data.thumbnail.extension
+          src={`${this.props.character.thumbnail.path}.${
+            this.props.character.thumbnail.extension
           }`}
         />
         <StyleSingleText>
-          Number of comics: {this.state.data.comics.returned}
+          Number of comics: {this.props.character.comics.returned}
         </StyleSingleText>
         <StyleSingleSection>
           <StyledH2>Description</StyledH2>
-          {this.state.data.description && (
-            <StyleSingleText>{this.state.data.description}</StyleSingleText>
+          {this.props.character.description && (
+            <StyleSingleText>
+              {this.props.character.description}
+            </StyleSingleText>
           )}
-          {!this.state.data.description && (
+          {!this.props.character.description && (
             <StyleSingleText>No description</StyleSingleText>
           )}
         </StyleSingleSection>
