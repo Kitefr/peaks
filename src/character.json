@@ -1,0 +1,180 @@
+{
+        "id": 1009489,
+        "name": "Ben Parker",
+        "description": "",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/c0/4c003d00c8ed9",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009489",
+        "comics": {
+          "available": 11,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009489/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/322",
+              "name": "Amazing Spider-Man (1999) #501"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/24407",
+              "name": "Amazing Spider-Man (1999) #600"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/29303",
+              "name": "Amazing Spider-Man (1999) #600 (2ND PRINTING VARIANT)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/35517",
+              "name": "Amazing Spider-Man (1999) #655"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/40886",
+              "name": "Amazing Spider-Man (1999) #655 (2nd Printing Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/36956",
+              "name": "Amazing Spider-Man Annual (2011) #38"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/41661",
+              "name": "Amazing Spider-Man Annual (2012) #39"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1262",
+              "name": "Amazing Spider-Man Vol. 6 (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/43094",
+              "name": "Amazing Spider-Man: The Movie (2012) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/14678",
+              "name": "Peter Parker, the Spectacular Spider-Man (1976) #221"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/14680",
+              "name": "Peter Parker, the Spectacular Spider-Man (1976) #223"
+            }
+          ],
+          "returned": 11
+        },
+        "series": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009489/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/454",
+              "name": "Amazing Spider-Man (1999 - 2013)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/13205",
+              "name": "Amazing Spider-Man Annual (2011)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/15540",
+              "name": "Amazing Spider-Man Annual (2012)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/318",
+              "name": "Amazing Spider-Man Vol. 6 (2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/16371",
+              "name": "Amazing Spider-Man: The Movie (2012)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2271",
+              "name": "Peter Parker, the Spectacular Spider-Man (1976 - 1998)"
+            }
+          ],
+          "returned": 6
+        },
+        "stories": {
+          "available": 12,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009489/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1020",
+              "name": "Amazing Spider-Man (1999) #501",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/23711",
+              "name": "A Prelude in Red",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/29870",
+              "name": "Peter Parker, The Spectacular Spider-Man (1976) #221",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/29876",
+              "name": "Peter Parker, The Spectacular Spider-Man (1976) #223",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53947",
+              "name": "Amazing Spider-Man (1999) #600",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53948",
+              "name": "Amazing Spider-Man (1999) #600 - Int",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/63774",
+              "name": "Amazing Spider-Man (1999) #600, 2nd Printing Variant - Int",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/78542",
+              "name": "Amazing Spider-Man (1999) #655 - Int",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/81953",
+              "name": "Amazing Spider-Man Annual (2011) #38",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/92597",
+              "name": "Amazing Spider-Man (1999) #655, 2nd Printing Variant - Int",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/94255",
+              "name": "Amazing Spider-Man Annual (2012) #39",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/96765",
+              "name": "Amazing Spider-Man: The Movie (2012) #1",
+              "type": "cover"
+            }
+          ],
+          "returned": 12
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009489/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/2737/ben_parker?utm_campaign=apiRef&utm_source=4a445f09f93c08a7c738c3859b34cda1"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Parker%2C_Ben_%28Uncle_Ben%29?utm_campaign=apiRef&utm_source=4a445f09f93c08a7c738c3859b34cda1"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1009489/ben_parker?utm_campaign=apiRef&utm_source=4a445f09f93c08a7c738c3859b34cda1"
+          }
+        ]
+      }
