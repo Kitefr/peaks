@@ -23,7 +23,7 @@ class Home extends Component {
   render() {
     return (
       <StyledPageContainer>
-        <PageHeader title="HomePage" />
+        <PageHeader title="Characters List" />
         <FlexContainer>
           {this.state.list.map((item, index) => (
             <Card key={index} item={item} />
