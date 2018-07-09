@@ -38,6 +38,7 @@ export const StyledPageContainer = styled.div`
 
   ${StyledH1} {
     line-height: 3rem;
+    font-size: 1.6rem;
     border-bottom: 1px solid black;
   }
 
