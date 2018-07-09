@@ -8,16 +8,16 @@ https://peaks-test.netlify.com/
 
 Utiliser l'API Marvel (https://developer.marvel.com) pour:
 
-- Afficher une liste de 20 personnages à partir du centième.
-- Chaque Item de la liste doit avoir les infos suivantes:
-  - Nom du personnage
-  - Image
-- Un clic sur le nom du personnage doit afficher le detail de celui-ci:
-  - Nom
-  - Description
-  - Image
-  - Le nombre de comics où le personnage apparait
-  - Les titres des 3 premieres comics où le personnage apparait
+- [x] Afficher une liste de 20 personnages à partir du centième.
+- [x] Chaque Item de la liste doit avoir les infos suivantes:
+  - [x] Nom du personnage
+  - [x] Image
+- [x] Un clic sur le nom du personnage doit afficher le detail de celui-ci:
+  - [x] Nom
+  - [x] Description
+  - [x] Image
+  - [x] Le nombre de comics où le personnage apparait
+  - [x] Les titres des 3 premieres comics où le personnage apparait
 
 # Contraintes
 
@@ -32,9 +32,9 @@ Utiliser l'API Marvel (https://developer.marvel.com) pour:
 
 S'il vous reste du temps ou si vous souhaitez y consacrer plus de temps, enrichissez l'application avec les fonctionnalités suivantes :
 
-- mise en place d'un loader
-- pagination pour pouvoir afficher les personnages précédent/suivant
-- possibilité de choisir jusqu'à 5 personnages favoris (persistence côté serveur non obligatoire)
+- [x] mise en place d'un loader
+- [ ] pagination pour pouvoir afficher les personnages précédent/suivant
+- [x] possibilité de choisir jusqu'à 5 personnages favoris (persistence côté serveur non obligatoire)
 
 # Installation
 
