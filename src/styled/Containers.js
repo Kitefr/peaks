@@ -8,13 +8,15 @@ export const StyledAppContainer = styled.div`
   width: 100vw;
   min-height: 100vh;
   overflow: scroll;
+  background-color: ${props =>
+    props.loading ? props.theme.colors.main.red : "white"};
 `;
 
 export const StyledHeaderContainer = styled.div`
   width: 100vw;
-  min-height: ${props => props.theme.sizes.header.height}px;
+  height: ${props => props.theme.sizes.header.height}px;
   overflow: hidden;
-  background-color: #ff050f;
+  background-color: ${props => props.theme.colors.main.red};
 
   ${StyledH1} {
     color: #ffffff;
@@ -32,6 +34,7 @@ export const StyledHeaderContainer = styled.div`
 
 export const StyledPageContainer = styled.div`
   padding: 0 10px;
+  background-color: white;
 
   ${StyledH1} {
     line-height: 3rem;
