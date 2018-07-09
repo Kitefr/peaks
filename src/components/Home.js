@@ -11,7 +11,7 @@ class Home extends Component {
         <PageHeader title="Characters List" />
         <FlexContainer>
           {this.props.characters.map((item, index) => (
-            <Card key={index} item={item} />
+            <Card key={index} item={item} favorites={this.props.favorites} />
           ))}
         </FlexContainer>
       </StyledPageContainer>

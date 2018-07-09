@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, withRouter } from "react-router-dom";
+import Emitter from "./emitter";
 
 import Home from "./components/Home";
 import Character from "./components/Character";
@@ -15,8 +16,13 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      characters: []
+      characters: [],
+      favorites: []
     };
+
+    this.actionToggleFavorite = this.actionToggleFavorite.bind(this);
+
+    Emitter.addListener("favoriteToggled", this.actionToggleFavorite);
   }
 
   componentDidMount() {
@@ -36,6 +42,24 @@ class App extends Component {
       .catch(err => console.log(err));
   }
 
+  actionToggleFavorite(id) {
+    if (this.state.favorites.length < 5) {
+      // Can add and delete
+      this.setState({
+        favorites: this.state.favorites.some(x => x === id)
+          ? this.state.favorites.filter(x => x !== id)
+          : [...this.state.favorites, id]
+      });
+    } else {
+      // Can only delete
+      if (this.state.favorites.some(x => x === id)) {
+        this.setState({
+          favorites: this.state.favorites.filter(x => x !== id)
+        });
+      }
+    }
+  }
+
   render() {
     return (
       <StyledAppContainer loading={this.state.characters.length === 0}>
@@ -50,7 +74,11 @@ class App extends Component {
               exact
               path="/"
               render={props => (
-                <Home {...props} characters={this.state.characters} />
+                <Home
+                  {...props}
+                  characters={this.state.characters}
+                  favorites={this.state.favorites}
+                />
               )}
             />
             <Route
@@ -63,6 +91,7 @@ class App extends Component {
                       item => Number(props.match.params.id) === Number(item.id)
                     )[0]
                   }
+                  favorites={this.state.favorites}
                 />
               )}
             />
