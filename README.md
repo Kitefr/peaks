@@ -36,6 +36,12 @@ S'il vous reste du temps ou si vous souhaitez y consacrer plus de temps, enrichi
 - [ ] pagination pour pouvoir afficher les personnages précédent/suivant
 - [x] possibilité de choisir jusqu'à 5 personnages favoris (persistence côté serveur non obligatoire)
 
+# Amélioration
+ 
+Pour améliorer les performances de l'application, en faire une PWA serai une idée.
+L'appel à l'API serait minimisé car les données serait stocké dans le navigateur grâce à indexedDB.
+De plus, cela permettrai l'utilisation de l'application en hors-ligne.
+
 # Installation
 
 Si vous désirez utiliser le repo directement, voici la marche à suivre:
